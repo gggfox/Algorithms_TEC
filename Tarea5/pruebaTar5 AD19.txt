@@ -1,0 +1,72 @@
+Aguascalientes
+Cd.México
+Chihuahua
+Culiacán
+Durango
+Guadalajara
+León
+Mérida
+Monterrey
+Morelia
+Puebla
+Querétaro
+Tijuana
+Torreón
+Veracruz
+#
+Chihuahua Aguascalientes 700
+Cd.México Aguascalientes 500
+Guadalajara Aguascalientes 300
+Monterrey Aguascalientes 500
+Puebla Aguascalientes 300
+Tijuana Aguascalientes 800
+Veracruz Aguascalientes 400
+Cd.México Chihuahua 1200
+Culiacán Chihuahua 800
+Guadalajara Chihuahua 1000
+Monterrey Chihuahua 700
+Tijuana Chihuahua 600
+Culiacán Cd.México 700
+Guadalajara Cd.México 800
+León Cd.México 500
+Mérida Cd.México 900
+Monterrey Cd.México 800
+Morelia Cd.México 500
+Durango Cd.México 700
+Tijuana Cd.México 1100
+Torreón Cd.México 700
+Veracruz Cd.México 600
+Guadalajara Culiacán 400
+Monterrey Culiacán 600
+Tijuana Culiacán 800
+León Guadalajara 500
+Mérida Guadalajara 1100
+Monterrey Guadalajara 800
+Puebla Guadalajara 700
+Durango Guadalajara 500
+Tijuana Guadalajara 850
+Torreón Guadalajara 500
+Veracruz Guadalajara 900
+Mérida León 700
+Monterrey León 700
+Tijuana León 900
+Monterrey Mérida 1000
+Morelia Mérida 900
+Puebla Mérida 900
+Querétaro Mérida 900
+Tijuana Mérida 1300
+Veracruz Mérida 800
+Morelia Monterrey 700
+Puebla Monterrey 700
+Querétaro Monterrey 800
+Durango Monterrey 600
+Tijuana Monterrey 1000
+Veracruz Monterrey 800
+Tijuana Morelia 800
+Tijuana Puebla 1200
+Tijuana Querétaro 900
+Veracruz Querétaro 600
+Torreón Durango 800
+Veracruz Durango 600
+Torreón Tijuana 900
+Veracruz Tijuana 1300

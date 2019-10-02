@@ -25,12 +25,14 @@ void problema1(std::string archivo){
     std::ifstream grades;
     grades.open(archivo);
 //ciclo para leer datos de archivo
+//O(n)
     while(! grades.eof()){
         grades>>grade;
         total_grades++;
         (grade == 100 ? arr[0]++ : arr[grade]++);
     }
 //ciclo para encontrar dato con mas repeticiones
+//O(1)
     for (int i = 1;i<100;i++){
         if(arr[i]>mode){
             mode=arr[i];
@@ -71,6 +73,7 @@ std::vector<int> vec;
 std::ifstream grades;
 grades.open(archivo);
 //Insertar datos en el vector
+//O(n)
 while(! grades.eof()){
 grades>>grade;
 vec.push_back(grade);
@@ -82,7 +85,8 @@ total_grades++;
 std::cout<<std::endl;
 cont=1;
 same=vec[0];
-//Ordenamos el vector con el algoritmo stl nlogn
+//Ordenamos el vector con el algoritmo stl 
+//O(nlogn)
 std::sort(vec.begin(),vec.end());
 
 for(int i = 1;i<vec.size();i++){
@@ -174,7 +178,9 @@ void Hash::findMean(){
     mode.number=table[0].begin()->number;
     mode.cont=table[0].begin()->cont;
     std::list<node>::iterator i;
+    //O(10)
     for(int x=0;x<10;x++){
+        //peor caso O(10)
         for(i = table[x].begin();i !=table[x].end();i++){
             if(i->cont>mode.cont){
                 mode.number=i->number;
@@ -222,8 +228,10 @@ Hash miHash;
 grades.open(archivo);
 
 //Insertar datos en el vector
+//O(n)
 while(! grades.eof()){
 grades>>grade;
+//peor caso O(10)
 miHash.insertGrade(grade);
 total_grades++;
 }
